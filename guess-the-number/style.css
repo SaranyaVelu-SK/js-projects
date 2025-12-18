@@ -1,0 +1,35 @@
+.container{
+    display :flex;
+    flex-direction: column;
+    align-items: center;
+    margin:30px;
+}
+h1{
+    color:darkslateblue;
+    margin:10px;
+}
+input{
+    border:2px solid gray;
+    border-radius:6px;
+    padding:20px;
+}
+.actionBtns{
+    margin:70px;    
+}
+.actionBtns button{
+    background-color: rgb(133, 122, 230);
+    padding:20px;
+    color:rgb(54, 54, 54);
+    font-size:24px;
+    border:none;
+    border-radius:5px;
+    margin:10px;
+    cursor:pointer;
+}
+.resStatements{
+    margin:10px;
+    font-size: 26px;
+}
+#error{
+    color:red;
+}
