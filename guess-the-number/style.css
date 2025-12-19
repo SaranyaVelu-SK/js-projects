@@ -33,3 +33,7 @@ input{
 #error{
     color:red;
 }
+#guessBtn:disabled{
+    background-color:rgb(247, 221, 211);
+    cursor: not-allowed;
+}

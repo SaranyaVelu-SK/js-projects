@@ -9,8 +9,10 @@ This repository contains my JavaScript learning journey through small, focused p
 Each folder represents a single concept-focused project.
 
 ### js-projects
-- variables-basics/
-- to be added...
+- variables-basics
+- mini-calculator
+- guess-the-number
+- ... to be continued
 
 
 Inside each project folder:

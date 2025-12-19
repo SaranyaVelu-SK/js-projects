@@ -35,11 +35,12 @@ function guessNumber(guessedVal) {
     } else {
         result.textContent = "whoa! you guessed it right 🎉"
         counter.textContent = `you found the answer in ${gameState.counter} attempts`;
-        submitBtn.disbaled = true;
+        submitBtn.disabled = true;
     }
     if (gameState.counter >= gameState.maxAttempt) {
         error.textContent = `Exceeds the max Limit, you lose !  The secret number is ${gameState.randomNum}`;
-        submitBtn.disbaled = true;
+        submitBtn.disabled = true;
+        result.textContent="";
         return;
     }
 }
@@ -86,5 +87,6 @@ resetBtn.addEventListener("click", (e) => {
     generateRandomNumber();
     gameState.counter = 0;
     counter.textContent = "";
-    submitBtn.disbaled = false;
+    submitBtn.disabled = false;
+    error.textContent="";
 })
