@@ -1,0 +1,35 @@
+.shoppingTableHeader{
+   display: flex;
+   justify-content: center;
+   width:60%;
+   /* margin-top:40px; */
+   /* gap:30px; */
+}
+.shoppingTableHeader div{
+    border:2px solid black;
+    /* padding:30px; */
+    font-size:24px;
+}
+#updateBtns{
+    display:flex;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+#addItem{
+    /* width:10%; */
+    padding:10px;
+    background-color: chartreuse;
+    color:black;
+    font-size:24px;
+    border:none;
+    border-radius:5px;
+}
+.addItemDiv{
+    display: flex;
+    justify-content: center;
+    width:60%;
+    gap:20px;
+}
